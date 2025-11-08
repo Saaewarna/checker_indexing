@@ -1,0 +1,17 @@
+{
+  "name": "index-checker-bot",
+  "version": "1.0.0",
+  "description": "CLI to check how many URLs in specific directories are indexed by search engines (via SerpAPI or Google CSE).",
+  "type": "module",
+  "bin": {
+    "index-checker": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js --help"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "xml2js": "^0.6.2",
+    "yargs": "^17.7.2"
+  }
+}
