@@ -64,7 +64,7 @@ node index.js --domain brainfactory.co.in --engine cse
 
 Throttle/delay antar query (detik, default 1.2):
 ```bash
-node index.js --domain brainfactory.co.in --delay 2
+node bulk-domains.js --domains-file domains.txt --out domains-results.txt --concurrency 3 --delay 1
 ```
 
 Output contoh:
